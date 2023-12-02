@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 
-const data = fs.readFileSync('1_data.txt', 'utf8');
+const data = fs.readFileSync('data.txt', 'utf8');
 //const data = "two1nine\neightwothree\nabcone2threexyz\nxtwone3four\n4nineeightseven2\nzoneight234\n7pqrstsixteen"
 const lines = data.split("\n");
 const regex = /(1|2|3|4|5|6|7|8|9|one|two|three|four|five|six|seven|eight|nine)/gm;

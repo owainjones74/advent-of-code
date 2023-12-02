@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 
-const data = fs.readFileSync('1_data.txt', 'utf8');
+const data = fs.readFileSync('data.txt', 'utf8');
 //const data = "1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet"
 const lines = data.split("\n");
 let total = 0;
